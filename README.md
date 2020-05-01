@@ -19,6 +19,7 @@ If there is no message specified by stdin, the Bangle.js will display "* BAM *".
 - A working bluetooth low energy stack (e.g. BlueZ) as described in the [Espruino Wiki](https://www.espruino.com/Quick+Start+BLE) 
     - Rule of thumb: if you can use the [Espruino Web IDE](https://www.espruino.com/ide/), you can use banglecli tools without any problems!
 - A working Python 3 installation in `#!/usr/bin/python3`, also a working pip3 to install the bluetooth library
+- A Bangle.js with the [Gadgetbridge App](https://github.com/espruino/BangleApps/tree/master/apps/gbridge) installed (required to display notifications)
 
 ## Installation
 
