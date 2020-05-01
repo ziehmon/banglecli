@@ -4,7 +4,7 @@ install_path=/usr/local/bin
 link_folder=/usr/local/bin
 git_url="https://github.com/sp3t3rs/banglecli/"
 
-git clone $git_url $install_path/
+git clone $git_url $install_path/banglecli/
 
 # Install Python 3 requirements
 pip3 install -r $install_path/banglecli/requirements.txt
